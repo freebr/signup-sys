@@ -1,0 +1,2125 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+您 Web 项目的发布/打包进程将使用此文件。您可以通过编辑此 MSBuild 文件
+来自定义该进程的行为。若要了解与此相关的详细信息，请访问 http://go.microsoft.com/fwlink/?LinkID=208121。
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>G:\web\SignupSys\SignupSys_deploy</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="about.aspx">
+      <publishTime>04/30/2018 21:09:01</publishTime>
+    </File>
+    <File Include="about.aspx.cs">
+      <publishTime>05/03/2018 00:16:43</publishTime>
+    </File>
+    <File Include="App_Themes/default/default.css">
+      <publishTime>10/28/2018 00:57:55</publishTime>
+    </File>
+    <File Include="App_Themes/default/images/spr_def.png">
+      <publishTime>06/13/2015 10:33:02</publishTime>
+    </File>
+    <File Include="App_Themes/default/images/spr_exit.png">
+      <publishTime>11/21/2015 08:34:48</publishTime>
+    </File>
+    <File Include="App_Themes/default/images/spr_exp.png">
+      <publishTime>11/21/2015 10:28:16</publishTime>
+    </File>
+    <File Include="App_Themes/default/images/spr_grp_expand.png">
+      <publishTime>06/12/2015 09:32:30</publishTime>
+    </File>
+    <File Include="App_Themes/default/images/spr_grp_line.png">
+      <publishTime>06/12/2015 09:42:40</publishTime>
+    </File>
+    <File Include="App_Themes/default/images/spr_imp.png">
+      <publishTime>11/21/2015 08:24:32</publishTime>
+    </File>
+    <File Include="App_Themes/default/images/spr_sur.png">
+      <publishTime>05/08/2018 10:20:56</publishTime>
+    </File>
+    <File Include="App_Themes/default/images/spr_tbl.png">
+      <publishTime>11/21/2015 08:19:12</publishTime>
+    </File>
+    <File Include="App_Themes/default/images/spr_title_bar.png">
+      <publishTime>06/12/2015 12:43:06</publishTime>
+    </File>
+    <File Include="App_Themes/user/page.css">
+      <publishTime>05/08/2018 11:43:11</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/FTB-FreeTextBox.js">
+      <publishTime>03/29/2017 00:09:34</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/FTB-ImageGallery.js">
+      <publishTime>05/09/2006 19:42:34</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/FTB-Pro.js">
+      <publishTime>02/10/2009 21:28:58</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/FTB-ToolbarItems.js">
+      <publishTime>06/16/2006 15:16:34</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/FTB-Utility.js">
+      <publishTime>02/10/2009 21:28:40</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/images/bold.gif">
+      <publishTime>02/28/2005 08:36:26</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/images/bulletedlist.gif">
+      <publishTime>02/28/2005 08:36:26</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/images/buttons.gif">
+      <publishTime>02/28/2005 08:36:26</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/images/buttons.png">
+      <publishTime>02/28/2005 08:36:26</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/images/copy.gif">
+      <publishTime>02/28/2005 08:36:26</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/images/createlink.gif">
+      <publishTime>02/28/2005 08:36:26</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/images/csharp.gif">
+      <publishTime>02/28/2005 08:36:26</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/images/css/toolbarbutton.off.out.gif">
+      <publishTime>02/28/2005 08:36:28</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/images/css/toolbarbutton.off.over.gif">
+      <publishTime>02/28/2005 08:36:28</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/images/css/toolbarbutton.on.out.gif">
+      <publishTime>02/28/2005 08:36:28</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/images/css/toolbarbutton.on.over.gif">
+      <publishTime>02/28/2005 08:36:28</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/images/css/toolbarbutton.over.gif">
+      <publishTime>02/28/2005 08:36:28</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/images/cut.gif">
+      <publishTime>02/28/2005 08:36:26</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/images/delete.gif">
+      <publishTime>02/28/2005 08:36:26</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/images/deletetablecolumn.gif">
+      <publishTime>02/28/2005 08:36:26</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/images/deletetablerow.gif">
+      <publishTime>02/28/2005 08:36:26</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/images/editstyle.gif">
+      <publishTime>02/28/2005 08:36:26</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/images/edittable.gif">
+      <publishTime>02/28/2005 08:36:26</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/images/edittablecell.gif">
+      <publishTime>02/28/2005 08:36:26</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/images/edittablerow.gif">
+      <publishTime>02/28/2005 08:36:26</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/images/fontbackcolorpicker.gif">
+      <publishTime>02/28/2005 08:36:26</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/images/fontforecolorpicker.gif">
+      <publishTime>02/28/2005 08:36:26</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/images/iespellcheck.gif">
+      <publishTime>02/28/2005 08:36:26</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/images/indent.gif">
+      <publishTime>02/28/2005 08:36:26</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/images/insertbutton.gif">
+      <publishTime>02/28/2005 08:36:26</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/images/insertcheckbox.gif">
+      <publishTime>02/28/2005 08:36:26</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/images/insertdate.gif">
+      <publishTime>02/28/2005 08:36:26</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/images/insertdiv.gif">
+      <publishTime>02/28/2005 08:36:26</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/images/insertdropdownlist.gif">
+      <publishTime>02/28/2005 08:36:26</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/images/insertform.gif">
+      <publishTime>02/28/2005 08:36:26</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/images/insertimage.gif">
+      <publishTime>02/28/2005 08:36:26</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/images/insertimagefromgallery.gif">
+      <publishTime>02/28/2005 08:36:26</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/images/insertlistbox.gif">
+      <publishTime>02/28/2005 08:36:26</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/images/insertradiobutton.gif">
+      <publishTime>02/28/2005 08:36:26</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/images/insertrule.gif">
+      <publishTime>02/28/2005 08:36:26</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/images/inserttable.gif">
+      <publishTime>02/28/2005 08:36:26</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/images/inserttablecolumn.gif">
+      <publishTime>02/28/2005 08:36:26</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/images/inserttablecolumnafter.gif">
+      <publishTime>02/28/2005 08:36:26</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/images/inserttablecolumnbefore.gif">
+      <publishTime>02/28/2005 08:36:26</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/images/inserttablerow.gif">
+      <publishTime>02/28/2005 08:36:26</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/images/inserttablerowafter.gif">
+      <publishTime>02/28/2005 08:36:26</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/images/inserttablerowbefore.gif">
+      <publishTime>02/28/2005 08:36:26</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/images/inserttextarea.gif">
+      <publishTime>02/28/2005 08:36:26</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/images/inserttextbox.gif">
+      <publishTime>02/28/2005 08:36:26</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/images/inserttime.gif">
+      <publishTime>02/28/2005 08:36:26</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/images/italic.gif">
+      <publishTime>02/28/2005 08:36:26</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/images/justifycenter.gif">
+      <publishTime>02/28/2005 08:36:26</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/images/justifyfull.gif">
+      <publishTime>02/10/2009 22:33:14</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/images/justifyleft.gif">
+      <publishTime>02/28/2005 08:36:26</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/images/justifyright.gif">
+      <publishTime>02/28/2005 08:36:26</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/images/mergecells.gif">
+      <publishTime>02/28/2005 08:36:26</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/images/mergecolumns.gif">
+      <publishTime>02/28/2005 08:36:26</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/images/mergerows.gif">
+      <publishTime>02/28/2005 08:36:26</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/images/misc/buttonbackgrounds.psd">
+      <publishTime>02/28/2005 08:36:28</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/images/misc/Image-Normal.psd">
+      <publishTime>02/28/2005 08:36:28</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/images/misc/Picasa.ini">
+      <publishTime>02/28/2005 08:36:28</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/images/misc/ToolbarButton-Background.psd">
+      <publishTime>02/28/2005 08:36:28</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/images/misc/toolbarbuttoncss.off.out.gif">
+      <publishTime>02/28/2005 08:36:28</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/images/misc/toolbarbuttoncss.off.over.gif">
+      <publishTime>02/28/2005 08:36:28</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/images/misc/toolbarbuttoncss.on.out.gif">
+      <publishTime>02/28/2005 08:36:28</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/images/misc/toolbarbuttoncss.on.over.gif">
+      <publishTime>02/28/2005 08:36:28</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/images/mode.design.gif">
+      <publishTime>02/28/2005 08:36:26</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/images/mode.html.gif">
+      <publishTime>02/28/2005 08:36:26</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/images/netspell.gif">
+      <publishTime>02/28/2005 08:36:26</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/images/numberedlist.gif">
+      <publishTime>02/28/2005 08:36:26</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/images/outdent.gif">
+      <publishTime>02/28/2005 08:36:26</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/images/paste.gif">
+      <publishTime>02/28/2005 08:36:26</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/images/Picasa.ini">
+      <publishTime>02/28/2005 08:36:26</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/images/preview.gif">
+      <publishTime>02/28/2005 08:36:26</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/images/print.gif">
+      <publishTime>02/28/2005 08:36:26</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/images/redo.gif">
+      <publishTime>02/28/2005 08:36:26</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/images/removeformat.gif">
+      <publishTime>02/28/2005 08:36:26</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/images/save.gif">
+      <publishTime>02/28/2005 08:36:26</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/images/selectall.gif">
+      <publishTime>02/28/2005 08:36:26</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/images/separator.horizontal.gif">
+      <publishTime>02/28/2005 08:36:26</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/images/separator.vertical.gif">
+      <publishTime>02/28/2005 08:36:26</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/images/spacer.gif">
+      <publishTime>02/28/2005 08:36:26</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/images/spellcheck.gif">
+      <publishTime>02/28/2005 08:36:26</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/images/splitcells.gif">
+      <publishTime>02/28/2005 08:36:26</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/images/strikethrough.gif">
+      <publishTime>02/28/2005 08:36:26</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/images/subs/bold.gif">
+      <publishTime>02/28/2005 08:36:28</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/images/subs/bulletedlist.gif">
+      <publishTime>02/28/2005 08:36:28</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/images/subs/copy.gif">
+      <publishTime>02/28/2005 08:36:28</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/images/subs/createlink.gif">
+      <publishTime>02/28/2005 08:36:28</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/images/subs/cut.gif">
+      <publishTime>02/28/2005 08:36:28</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/images/subs/delete.gif">
+      <publishTime>02/28/2005 08:36:28</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/images/subs/deletetablecolumn.gif">
+      <publishTime>02/28/2005 08:36:26</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/images/subs/deletetablerow.gif">
+      <publishTime>02/28/2005 08:36:28</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/images/subs/fontbackcolorpicker.gif">
+      <publishTime>02/28/2005 08:36:28</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/images/subs/fontforecolorpicker.gif">
+      <publishTime>02/28/2005 08:36:28</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/images/subs/indent.gif">
+      <publishTime>02/28/2005 08:36:28</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/images/subs/insertdate.gif">
+      <publishTime>02/28/2005 08:36:28</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/images/subs/insertimage.gif">
+      <publishTime>02/28/2005 08:36:28</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/images/subs/insertimagefromgallery.gif">
+      <publishTime>02/28/2005 08:36:28</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/images/subs/insertrule.gif">
+      <publishTime>02/28/2005 08:36:28</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/images/subs/inserttable.gif">
+      <publishTime>02/28/2005 08:36:28</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/images/subs/inserttablecolumn.gif">
+      <publishTime>02/28/2005 08:36:28</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/images/subs/inserttablerow.gif">
+      <publishTime>02/28/2005 08:36:28</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/images/subs/inserttime.gif">
+      <publishTime>02/28/2005 08:36:28</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/images/subs/italic.gif">
+      <publishTime>02/28/2005 08:36:28</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/images/subs/justifycenter.gif">
+      <publishTime>02/28/2005 08:36:28</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/images/subs/justifyfull.gif">
+      <publishTime>02/28/2005 08:36:28</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/images/subs/justifyleft.gif">
+      <publishTime>02/28/2005 08:36:28</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/images/subs/justifyright.gif">
+      <publishTime>02/28/2005 08:36:28</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/images/subs/mergecells.gif">
+      <publishTime>02/28/2005 08:36:28</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/images/subs/mergecolumns.gif">
+      <publishTime>02/28/2005 08:36:28</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/images/subs/numberedlist.gif">
+      <publishTime>02/28/2005 08:36:28</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/images/subs/outdent.gif">
+      <publishTime>02/28/2005 08:36:28</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/images/subs/paste.gif">
+      <publishTime>02/28/2005 08:36:28</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/images/subs/print.gif">
+      <publishTime>02/28/2005 08:36:28</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/images/subs/redo.gif">
+      <publishTime>02/28/2005 08:36:28</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/images/subs/removeformat.gif">
+      <publishTime>02/28/2005 08:36:28</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/images/subs/save.gif">
+      <publishTime>02/28/2005 08:36:28</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/images/subs/spellcheck.gif">
+      <publishTime>02/28/2005 08:36:28</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/images/subs/strikethrough.gif">
+      <publishTime>02/28/2005 08:36:28</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/images/subs/subscript.gif">
+      <publishTime>02/28/2005 08:36:28</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/images/subs/superscript.gif">
+      <publishTime>02/28/2005 08:36:28</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/images/subs/underline.gif">
+      <publishTime>02/28/2005 08:36:28</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/images/subs/undo.gif">
+      <publishTime>02/28/2005 08:36:28</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/images/subs/unlink.gif">
+      <publishTime>02/28/2005 08:36:28</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/images/subs/wordclean.gif">
+      <publishTime>02/28/2005 08:36:28</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/images/subs/wordcount.gif">
+      <publishTime>02/28/2005 08:36:28</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/images/subscript.gif">
+      <publishTime>02/28/2005 08:36:26</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/images/superscript.gif">
+      <publishTime>02/28/2005 08:36:26</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/images/toolbar.horizontal.background.gif">
+      <publishTime>02/28/2005 08:36:26</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/images/toolbar.horizontal.end.gif">
+      <publishTime>02/28/2005 08:36:26</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/images/toolbar.horizontal.start.gif">
+      <publishTime>02/28/2005 08:36:26</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/images/toolbar.vertical.background.gif">
+      <publishTime>02/28/2005 08:36:26</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/images/toolbar.vertical.end.gif">
+      <publishTime>02/28/2005 08:36:26</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/images/toolbar.vertical.start.gif">
+      <publishTime>02/28/2005 08:36:26</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/images/toolbarbutton.background.gif">
+      <publishTime>02/28/2005 08:36:26</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/images/toolbarbutton.down.gif">
+      <publishTime>02/28/2005 08:36:26</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/images/toolbarbuttoncss.off.out.gif">
+      <publishTime>02/28/2005 08:36:26</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/images/toolbarbuttoncss.off.over.gif">
+      <publishTime>02/28/2005 08:36:26</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/images/toolbarbuttoncss.on.out.gif">
+      <publishTime>02/28/2005 08:36:26</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/images/toolbarbuttoncss.on.over.gif">
+      <publishTime>02/28/2005 08:36:26</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/images/underline.gif">
+      <publishTime>02/28/2005 08:36:26</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/images/undo.gif">
+      <publishTime>02/28/2005 08:36:26</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/images/unlink.gif">
+      <publishTime>02/28/2005 08:36:26</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/images/wordclean.gif">
+      <publishTime>02/28/2005 08:36:26</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/images/wordcount.gif">
+      <publishTime>02/28/2005 08:36:26</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/Languages/ar-SA.xml">
+      <publishTime>06/17/2006 10:40:08</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/Languages/ca-CA.xml">
+      <publishTime>11/06/2005 12:07:08</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/Languages/ca-ES.xml">
+      <publishTime>11/06/2005 12:07:08</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/Languages/cs-CZ.xml">
+      <publishTime>11/06/2005 12:07:08</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/Languages/da-DK.xml">
+      <publishTime>06/17/2006 10:50:54</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/Languages/de-DE.xml">
+      <publishTime>11/06/2005 12:07:08</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/Languages/el-GR.xml">
+      <publishTime>06/17/2006 10:40:08</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/Languages/en-US.xml">
+      <publishTime>11/06/2005 12:07:08</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/Languages/es-ES.xml">
+      <publishTime>11/06/2005 12:07:08</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/Languages/fa-IR.xml">
+      <publishTime>07/18/2006 18:29:16</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/Languages/fr-FR.xml">
+      <publishTime>11/06/2005 12:07:08</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/Languages/he-IL.xml">
+      <publishTime>11/06/2005 12:07:08</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/Languages/hu-HU.xml">
+      <publishTime>11/06/2005 12:07:08</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/Languages/it-IT.xml">
+      <publishTime>11/06/2005 12:07:08</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/Languages/ja-JP.xml">
+      <publishTime>11/06/2005 12:07:08</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/Languages/ko-kr.xml">
+      <publishTime>11/06/2005 12:07:08</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/Languages/Languages.xml">
+      <publishTime>07/18/2006 19:34:16</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/Languages/nb-NO.xml">
+      <publishTime>11/06/2005 12:07:08</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/Languages/nl-NL.xml">
+      <publishTime>11/06/2005 12:07:08</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/Languages/pl-PL.xml">
+      <publishTime>11/06/2005 12:07:08</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/Languages/pt-pt.xml">
+      <publishTime>11/06/2005 12:07:08</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/Languages/ro-RO.xml">
+      <publishTime>11/06/2005 12:07:08</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/Languages/ru-ru.xml">
+      <publishTime>11/06/2005 12:07:08</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/Languages/sv-se.xml">
+      <publishTime>11/06/2005 12:07:08</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/Languages/zh-cn.xml">
+      <publishTime>11/06/2005 12:07:08</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/Languages/zh-TW.xml">
+      <publishTime>11/06/2005 12:07:08</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/office2000/bold.gif">
+      <publishTime>02/28/2005 08:36:28</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/office2000/bulletedlist.gif">
+      <publishTime>02/28/2005 08:36:28</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/office2000/copy.gif">
+      <publishTime>02/28/2005 08:36:28</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/office2000/createlink.gif">
+      <publishTime>02/28/2005 08:36:28</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/office2000/cut.gif">
+      <publishTime>02/28/2005 08:36:28</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/office2000/delete.gif">
+      <publishTime>02/28/2005 08:36:28</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/office2000/deletetablecolumn.gif">
+      <publishTime>02/28/2005 08:36:28</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/office2000/deletetablerow.gif">
+      <publishTime>02/28/2005 08:36:28</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/office2000/editstyle.gif">
+      <publishTime>02/28/2005 08:36:28</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/office2000/edittable.gif">
+      <publishTime>02/28/2005 08:36:28</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/office2000/fontbackcolorpicker.gif">
+      <publishTime>02/28/2005 08:36:28</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/office2000/fontforecolorpicker.gif">
+      <publishTime>02/28/2005 08:36:28</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/office2000/iespellcheck.gif">
+      <publishTime>02/28/2005 08:36:28</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/office2000/indent.gif">
+      <publishTime>02/28/2005 08:36:28</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/office2000/insertbutton.gif">
+      <publishTime>02/28/2005 08:36:28</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/office2000/insertcheckbox.gif">
+      <publishTime>02/28/2005 08:36:28</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/office2000/insertdate.gif">
+      <publishTime>02/28/2005 08:36:28</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/office2000/insertdiv.gif">
+      <publishTime>02/28/2005 08:36:28</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/office2000/insertdropdownlist.gif">
+      <publishTime>02/28/2005 08:36:28</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/office2000/insertform.gif">
+      <publishTime>02/28/2005 08:36:28</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/office2000/insertimage.gif">
+      <publishTime>02/28/2005 08:36:28</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/office2000/insertimagefromgallery.gif">
+      <publishTime>02/28/2005 08:36:28</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/office2000/insertlistbox.gif">
+      <publishTime>02/28/2005 08:36:28</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/office2000/insertradiobutton.gif">
+      <publishTime>02/28/2005 08:36:28</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/office2000/insertrule.gif">
+      <publishTime>02/28/2005 08:36:28</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/office2000/inserttable.gif">
+      <publishTime>02/28/2005 08:36:28</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/office2000/inserttablecolumn.gif">
+      <publishTime>02/28/2005 08:36:28</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/office2000/inserttablecolumnafter.gif">
+      <publishTime>02/28/2005 08:36:28</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/office2000/inserttablecolumnbefore.gif">
+      <publishTime>02/28/2005 08:36:28</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/office2000/inserttablerow.gif">
+      <publishTime>02/28/2005 08:36:28</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/office2000/inserttablerowafter.gif">
+      <publishTime>02/28/2005 08:36:28</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/office2000/inserttablerowbefore.gif">
+      <publishTime>02/28/2005 08:36:28</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/office2000/inserttextarea.gif">
+      <publishTime>02/28/2005 08:36:28</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/office2000/inserttextbox.gif">
+      <publishTime>02/28/2005 08:36:28</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/office2000/inserttime.gif">
+      <publishTime>02/28/2005 08:36:28</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/office2000/italic.gif">
+      <publishTime>02/28/2005 08:36:28</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/office2000/justifycenter.gif">
+      <publishTime>02/28/2005 08:36:28</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/office2000/justifyfull.gif">
+      <publishTime>02/28/2005 08:36:28</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/office2000/justifyleft.gif">
+      <publishTime>02/28/2005 08:36:28</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/office2000/justifyright.gif">
+      <publishTime>02/28/2005 08:36:28</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/office2000/mergecells.gif">
+      <publishTime>02/28/2005 08:36:28</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/office2000/mergerows.gif">
+      <publishTime>02/28/2005 08:36:28</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/office2000/mode.design.gif">
+      <publishTime>02/28/2005 08:36:28</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/office2000/mode.html.gif">
+      <publishTime>02/28/2005 08:36:28</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/office2000/netspell.gif">
+      <publishTime>02/28/2005 08:36:28</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/office2000/normal.gif">
+      <publishTime>02/28/2005 08:36:28</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/office2000/normal.png">
+      <publishTime>02/28/2005 08:36:28</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/office2000/numberedlist.gif">
+      <publishTime>02/28/2005 08:36:28</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/office2000/outdent.gif">
+      <publishTime>02/28/2005 08:36:28</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/office2000/paste.gif">
+      <publishTime>02/28/2005 08:36:28</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/office2000/preview.gif">
+      <publishTime>02/28/2005 08:36:28</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/office2000/print.gif">
+      <publishTime>02/28/2005 08:36:28</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/office2000/redo.gif">
+      <publishTime>02/28/2005 08:36:28</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/office2000/removeformat.gif">
+      <publishTime>02/28/2005 08:36:28</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/office2000/save.gif">
+      <publishTime>02/28/2005 08:36:28</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/office2000/selectall.gif">
+      <publishTime>02/28/2005 08:36:28</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/office2000/separator.horizontal.gif">
+      <publishTime>02/28/2005 08:36:28</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/office2000/spacer.gif">
+      <publishTime>02/28/2005 08:36:28</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/office2000/spellcheck.gif">
+      <publishTime>02/28/2005 08:36:28</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/office2000/strikethrough.gif">
+      <publishTime>02/28/2005 08:36:28</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/office2000/subs/bold.gif">
+      <publishTime>02/28/2005 08:36:28</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/office2000/subs/bulletedlist.gif">
+      <publishTime>02/28/2005 08:36:28</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/office2000/subs/copy.gif">
+      <publishTime>02/28/2005 08:36:28</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/office2000/subs/createlink.gif">
+      <publishTime>02/28/2005 08:36:28</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/office2000/subs/cut.gif">
+      <publishTime>02/28/2005 08:36:28</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/office2000/subs/delete.gif">
+      <publishTime>02/28/2005 08:36:28</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/office2000/subs/deletetablecolumn.gif">
+      <publishTime>02/28/2005 08:36:28</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/office2000/subs/deletetablerow.gif">
+      <publishTime>02/28/2005 08:36:28</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/office2000/subs/fontbackcolorpicker.gif">
+      <publishTime>02/28/2005 08:36:28</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/office2000/subs/fontforecolorpicker.gif">
+      <publishTime>02/28/2005 08:36:28</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/office2000/subs/indent.gif">
+      <publishTime>02/28/2005 08:36:28</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/office2000/subs/insertdate.gif">
+      <publishTime>02/28/2005 08:36:28</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/office2000/subs/insertimage.gif">
+      <publishTime>02/28/2005 08:36:30</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/office2000/subs/insertimagefromgallery.gif">
+      <publishTime>02/28/2005 08:36:30</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/office2000/subs/insertrule.gif">
+      <publishTime>02/28/2005 08:36:28</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/office2000/subs/inserttable.gif">
+      <publishTime>02/28/2005 08:36:28</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/office2000/subs/inserttablecolumn.gif">
+      <publishTime>02/28/2005 08:36:28</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/office2000/subs/inserttablerow.gif">
+      <publishTime>02/28/2005 08:36:28</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/office2000/subs/inserttime.gif">
+      <publishTime>02/28/2005 08:36:28</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/office2000/subs/italic.gif">
+      <publishTime>02/28/2005 08:36:28</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/office2000/subs/justifycenter.gif">
+      <publishTime>02/28/2005 08:36:28</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/office2000/subs/justifyfull.gif">
+      <publishTime>02/28/2005 08:36:28</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/office2000/subs/justifyleft.gif">
+      <publishTime>02/28/2005 08:36:28</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/office2000/subs/justifyright.gif">
+      <publishTime>02/28/2005 08:36:28</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/office2000/subs/mergecells.gif">
+      <publishTime>02/28/2005 08:36:28</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/office2000/subs/mergerows.gif">
+      <publishTime>02/28/2005 08:36:28</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/office2000/subs/numberedlist.gif">
+      <publishTime>02/28/2005 08:36:28</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/office2000/subs/outdent.gif">
+      <publishTime>02/28/2005 08:36:30</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/office2000/subs/paste.gif">
+      <publishTime>02/28/2005 08:36:28</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/office2000/subs/print.gif">
+      <publishTime>02/28/2005 08:36:28</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/office2000/subs/redo.gif">
+      <publishTime>02/28/2005 08:36:28</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/office2000/subs/removeformat.gif">
+      <publishTime>02/28/2005 08:36:30</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/office2000/subs/save.gif">
+      <publishTime>02/28/2005 08:36:28</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/office2000/subs/spellcheck.gif">
+      <publishTime>02/28/2005 08:36:28</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/office2000/subs/strikethrough.gif">
+      <publishTime>02/28/2005 08:36:28</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/office2000/subs/subscript.gif">
+      <publishTime>02/28/2005 08:36:28</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/office2000/subs/superscript.gif">
+      <publishTime>02/28/2005 08:36:28</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/office2000/subs/Thumbs.db">
+      <publishTime>02/28/2005 08:36:28</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/office2000/subs/underline.gif">
+      <publishTime>02/28/2005 08:36:28</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/office2000/subs/undo.gif">
+      <publishTime>02/28/2005 08:36:28</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/office2000/subs/unlink.gif">
+      <publishTime>02/28/2005 08:36:28</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/office2000/subs/wordclean.gif">
+      <publishTime>02/28/2005 08:36:28</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/office2000/subs/wordcount.gif">
+      <publishTime>02/28/2005 08:36:28</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/office2000/subscript.gif">
+      <publishTime>02/28/2005 08:36:28</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/office2000/superscript.gif">
+      <publishTime>02/28/2005 08:36:28</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/office2000/Thumbs.db">
+      <publishTime>02/28/2005 08:36:28</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/office2000/toolbar.horizontal.end.gif">
+      <publishTime>02/28/2005 08:36:28</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/office2000/toolbar.horizontal.start.gif">
+      <publishTime>02/28/2005 08:36:28</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/office2000/underline.gif">
+      <publishTime>02/28/2005 08:36:28</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/office2000/undo.gif">
+      <publishTime>02/28/2005 08:36:28</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/office2000/unlink.gif">
+      <publishTime>02/28/2005 08:36:28</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/office2000/wordclean.gif">
+      <publishTime>02/28/2005 08:36:28</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/office2000/wordcount.gif">
+      <publishTime>02/28/2005 08:36:28</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeMac/backcolorpicker.gif">
+      <publishTime>02/28/2005 08:36:24</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeMac/bold.gif">
+      <publishTime>02/28/2005 08:36:24</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeMac/bulletedlist.gif">
+      <publishTime>02/28/2005 08:36:24</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeMac/copy.gif">
+      <publishTime>02/28/2005 08:36:24</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeMac/createlink.gif">
+      <publishTime>02/28/2005 08:36:24</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeMac/cut.gif">
+      <publishTime>02/28/2005 08:36:24</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeMac/delete.gif">
+      <publishTime>02/28/2005 08:36:24</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeMac/deletetablecolumn.gif">
+      <publishTime>02/28/2005 08:36:24</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeMac/deletetablerow.gif">
+      <publishTime>02/28/2005 08:36:24</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeMac/editstyle.gif">
+      <publishTime>02/28/2005 08:36:24</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeMac/edittable.gif">
+      <publishTime>02/28/2005 08:36:26</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeMac/fontbackcolorpicker.gif">
+      <publishTime>02/28/2005 08:36:24</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeMac/fontforecolorpicker.gif">
+      <publishTime>02/28/2005 08:36:24</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeMac/forecolorpicker.gif">
+      <publishTime>02/28/2005 08:36:24</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeMac/iespellcheck.gif">
+      <publishTime>02/28/2005 08:36:24</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeMac/indent.gif">
+      <publishTime>02/28/2005 08:36:24</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeMac/insertbutton.gif">
+      <publishTime>02/28/2005 08:36:24</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeMac/insertcheckbox.gif">
+      <publishTime>02/28/2005 08:36:24</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeMac/insertdate.gif">
+      <publishTime>02/28/2005 08:36:24</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeMac/insertdiv.gif">
+      <publishTime>02/28/2005 08:36:24</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeMac/insertdropdownlist.gif">
+      <publishTime>02/28/2005 08:36:26</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeMac/insertform.gif">
+      <publishTime>02/28/2005 08:36:24</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeMac/insertimage.gif">
+      <publishTime>02/28/2005 08:36:26</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeMac/insertimagefromgallery.gif">
+      <publishTime>02/28/2005 08:36:24</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeMac/insertradiobutton.gif">
+      <publishTime>02/28/2005 08:36:24</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeMac/insertrule.gif">
+      <publishTime>02/28/2005 08:36:24</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeMac/inserttable.gif">
+      <publishTime>02/28/2005 08:36:24</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeMac/inserttablecolumnafter.gif">
+      <publishTime>02/28/2005 08:36:26</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeMac/inserttablecolumnbefore.gif">
+      <publishTime>02/28/2005 08:36:24</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeMac/inserttablerowafter.gif">
+      <publishTime>02/28/2005 08:36:24</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeMac/inserttablerowbefore.gif">
+      <publishTime>02/28/2005 08:36:24</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeMac/inserttextarea.gif">
+      <publishTime>02/28/2005 08:36:24</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeMac/inserttextbox.gif">
+      <publishTime>02/28/2005 08:36:24</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeMac/inserttime.gif">
+      <publishTime>02/28/2005 08:36:24</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeMac/italic.gif">
+      <publishTime>02/28/2005 08:36:24</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeMac/justifycenter.gif">
+      <publishTime>02/28/2005 08:36:24</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeMac/justifyfull.gif">
+      <publishTime>02/28/2005 08:36:24</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeMac/justifyleft.gif">
+      <publishTime>02/28/2005 08:36:24</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeMac/justifyright.gif">
+      <publishTime>02/28/2005 08:36:24</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeMac/mode.design.gif">
+      <publishTime>02/28/2005 08:36:24</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeMac/mode.html.gif">
+      <publishTime>02/28/2005 08:36:24</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeMac/netspell.gif">
+      <publishTime>02/28/2005 08:36:26</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeMac/new.gif">
+      <publishTime>02/28/2005 08:36:24</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeMac/numberedlist.gif">
+      <publishTime>02/28/2005 08:36:24</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeMac/outdent.gif">
+      <publishTime>02/28/2005 08:36:26</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeMac/paste.gif">
+      <publishTime>02/28/2005 08:36:24</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeMac/paste2.gif">
+      <publishTime>02/28/2005 08:36:24</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeMac/Picasa.ini">
+      <publishTime>02/28/2005 08:36:26</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeMac/preview.gif">
+      <publishTime>02/28/2005 08:36:26</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeMac/print.gif">
+      <publishTime>02/28/2005 08:36:24</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeMac/redo.gif">
+      <publishTime>02/28/2005 08:36:24</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeMac/removeformat.gif">
+      <publishTime>02/28/2005 08:36:26</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeMac/save.gif">
+      <publishTime>02/28/2005 08:36:24</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeMac/selectall.gif">
+      <publishTime>02/28/2005 08:36:24</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeMac/separator.horizontal.gif">
+      <publishTime>02/28/2005 08:36:26</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeMac/strikethrough.gif">
+      <publishTime>02/28/2005 08:36:24</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeMac/subscript.gif">
+      <publishTime>02/28/2005 08:36:24</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeMac/superscript.gif">
+      <publishTime>02/28/2005 08:36:24</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeMac/Thumbs.db">
+      <publishTime>02/28/2005 08:36:24</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeMac/toolbar.horizontal.background.gif">
+      <publishTime>02/28/2005 08:36:24</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeMac/toolbar.horizontal.end.gif">
+      <publishTime>02/28/2005 08:36:26</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeMac/toolbar.horizontal.end2.gif">
+      <publishTime>02/28/2005 08:36:26</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeMac/toolbar.horizontal.start.gif">
+      <publishTime>02/28/2005 08:36:24</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeMac/toolbarbuttoncss.off.normal.gif">
+      <publishTime>02/28/2005 08:36:24</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeMac/toolbarbuttoncss.off.over.gif">
+      <publishTime>02/28/2005 08:36:24</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeMac/toolbarbuttoncss.on.normal.gif">
+      <publishTime>02/28/2005 08:36:24</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeMac/toolbarbuttoncss.on.over.gif">
+      <publishTime>02/28/2005 08:36:24</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeMac/underline.gif">
+      <publishTime>02/28/2005 08:36:26</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeMac/undo.gif">
+      <publishTime>02/28/2005 08:36:24</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeMac/unlink.gif">
+      <publishTime>02/28/2005 08:36:26</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeMac/Untitled-2.png">
+      <publishTime>02/28/2005 08:36:24</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeMac/wordclean.gif">
+      <publishTime>02/28/2005 08:36:24</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeXP/bold.gif">
+      <publishTime>02/28/2005 08:36:30</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeXP/bold.over.gif">
+      <publishTime>02/28/2005 08:36:30</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeXP/bulletedlist.gif">
+      <publishTime>02/28/2005 08:36:30</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeXP/bulletedlist.over.gif">
+      <publishTime>02/28/2005 08:36:30</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeXP/copy.gif">
+      <publishTime>02/28/2005 08:36:30</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeXP/copy.over.gif">
+      <publishTime>02/28/2005 08:36:30</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeXP/createlink.gif">
+      <publishTime>02/28/2005 08:36:30</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeXP/createlink.over.gif">
+      <publishTime>02/28/2005 08:36:30</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeXP/cut.gif">
+      <publishTime>02/28/2005 08:36:30</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeXP/cut.over.gif">
+      <publishTime>02/28/2005 08:36:30</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeXP/delete.gif">
+      <publishTime>02/28/2005 08:36:30</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeXP/delete.over.gif">
+      <publishTime>02/28/2005 08:36:30</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeXP/deletetablecolumn.gif">
+      <publishTime>02/28/2005 08:36:30</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeXP/deletetablecolumn.over.gif">
+      <publishTime>02/28/2005 08:36:30</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeXP/deletetablerow.gif">
+      <publishTime>02/28/2005 08:36:30</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeXP/deletetablerow.over.gif">
+      <publishTime>02/28/2005 08:36:30</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeXP/editstyle.gif">
+      <publishTime>02/28/2005 08:36:30</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeXP/edittable.gif">
+      <publishTime>02/28/2005 08:36:30</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeXP/fontbackcolorpicker.gif">
+      <publishTime>02/28/2005 08:36:30</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeXP/fontbackcolorpicker.over.gif">
+      <publishTime>02/28/2005 08:36:30</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeXP/fontforecolorpicker.gif">
+      <publishTime>02/28/2005 08:36:30</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeXP/fontforecolorpicker.over.gif">
+      <publishTime>02/28/2005 08:36:30</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeXP/forumColumnBackground.gif">
+      <publishTime>02/28/2005 08:36:30</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeXP/iespellcheck.gif">
+      <publishTime>02/28/2005 08:36:30</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeXP/iespellcheck.over.gif">
+      <publishTime>02/28/2005 08:36:30</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeXP/indent.gif">
+      <publishTime>02/28/2005 08:36:30</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeXP/indent.over.gif">
+      <publishTime>02/28/2005 08:36:30</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeXP/insertbutton.gif">
+      <publishTime>02/28/2005 08:36:30</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeXP/insertcheckbox.gif">
+      <publishTime>02/28/2005 08:36:30</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeXP/insertdate.gif">
+      <publishTime>02/28/2005 08:36:30</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeXP/insertdate.over.gif">
+      <publishTime>02/28/2005 08:36:30</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeXP/insertdiv.gif">
+      <publishTime>02/28/2005 08:36:30</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeXP/insertdropdownlist.gif">
+      <publishTime>02/28/2005 08:36:30</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeXP/insertform.gif">
+      <publishTime>02/28/2005 08:36:30</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeXP/insertimage.gif">
+      <publishTime>02/28/2005 08:36:30</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeXP/insertimage.over.gif">
+      <publishTime>02/28/2005 08:36:30</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeXP/insertimagefromgallery.gif">
+      <publishTime>02/28/2005 08:36:30</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeXP/insertimagefromgallery.over.gif">
+      <publishTime>02/28/2005 08:36:30</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeXP/insertlistbox.gif">
+      <publishTime>02/28/2005 08:36:30</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeXP/insertradiobutton.gif">
+      <publishTime>02/28/2005 08:36:30</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeXP/insertrule.gif">
+      <publishTime>02/28/2005 08:36:30</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeXP/insertrule.over.gif">
+      <publishTime>02/28/2005 08:36:30</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeXP/inserttable.gif">
+      <publishTime>02/28/2005 08:36:30</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeXP/inserttable.over.gif">
+      <publishTime>02/28/2005 08:36:30</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeXP/inserttablecolumn.gif">
+      <publishTime>02/28/2005 08:36:30</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeXP/inserttablecolumn.over.gif">
+      <publishTime>02/28/2005 08:36:30</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeXP/inserttablecolumnafter.gif">
+      <publishTime>02/28/2005 08:36:30</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeXP/inserttablecolumnafter.over.gif">
+      <publishTime>02/28/2005 08:36:30</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeXP/inserttablecolumnbefore.gif">
+      <publishTime>02/28/2005 08:36:30</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeXP/inserttablecolumnbefore.over.gif">
+      <publishTime>02/28/2005 08:36:30</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeXP/inserttablerow.gif">
+      <publishTime>02/28/2005 08:36:30</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeXP/inserttablerow.over.gif">
+      <publishTime>02/28/2005 08:36:30</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeXP/inserttablerowafter.gif">
+      <publishTime>02/28/2005 08:36:30</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeXP/inserttablerowafter.over.gif">
+      <publishTime>02/28/2005 08:36:30</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeXP/inserttablerowbefore.gif">
+      <publishTime>02/28/2005 08:36:30</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeXP/inserttablerowbefore.over.gif">
+      <publishTime>02/28/2005 08:36:30</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeXP/inserttextarea.gif">
+      <publishTime>02/28/2005 08:36:30</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeXP/inserttextbox.gif">
+      <publishTime>02/28/2005 08:36:30</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeXP/inserttime.gif">
+      <publishTime>02/28/2005 08:36:30</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeXP/inserttime.over.gif">
+      <publishTime>02/28/2005 08:36:30</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeXP/italic.gif">
+      <publishTime>02/28/2005 08:36:30</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeXP/italic.over.gif">
+      <publishTime>02/28/2005 08:36:30</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeXP/justifycenter.gif">
+      <publishTime>02/28/2005 08:36:30</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeXP/justifycenter.over.gif">
+      <publishTime>02/28/2005 08:36:30</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeXP/justifyfull.gif">
+      <publishTime>02/28/2005 08:36:30</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeXP/justifyfull.over.gif">
+      <publishTime>02/28/2005 08:36:30</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeXP/justifyleft.gif">
+      <publishTime>02/28/2005 08:36:30</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeXP/justifyleft.over.gif">
+      <publishTime>02/28/2005 08:36:30</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeXP/justifyright.gif">
+      <publishTime>02/28/2005 08:36:30</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeXP/justifyright.over.gif">
+      <publishTime>02/28/2005 08:36:30</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeXP/mergecells.gif">
+      <publishTime>02/28/2005 08:36:30</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeXP/mergecells.over.gif">
+      <publishTime>02/28/2005 08:36:30</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeXP/mergerows.gif">
+      <publishTime>02/28/2005 08:36:30</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeXP/mergerows.over.gif">
+      <publishTime>02/28/2005 08:36:30</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeXP/mode.design.gif">
+      <publishTime>02/28/2005 08:36:30</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeXP/mode.html.gif">
+      <publishTime>02/28/2005 08:36:30</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeXP/netspell.gif">
+      <publishTime>02/28/2005 08:36:30</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeXP/netspell.over.gif">
+      <publishTime>02/28/2005 08:36:30</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeXP/normal.gif">
+      <publishTime>02/28/2005 08:36:30</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeXP/normal.png">
+      <publishTime>02/28/2005 08:36:30</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeXP/numberedlist.gif">
+      <publishTime>02/28/2005 08:36:30</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeXP/numberedlist.over.gif">
+      <publishTime>02/28/2005 08:36:30</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeXP/old/bgcolor.gif">
+      <publishTime>02/28/2005 08:36:32</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeXP/old/bold.gif">
+      <publishTime>02/28/2005 08:36:30</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeXP/old/bold.over.gif">
+      <publishTime>02/28/2005 08:36:32</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeXP/old/borders.gif">
+      <publishTime>02/28/2005 08:36:32</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeXP/old/bulletedlist.gif">
+      <publishTime>02/28/2005 08:36:30</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeXP/old/bulletedlist.over.gif">
+      <publishTime>02/28/2005 08:36:32</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeXP/old/changecase.gif">
+      <publishTime>02/28/2005 08:36:30</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeXP/old/changecase.over.gif">
+      <publishTime>02/28/2005 08:36:30</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeXP/old/copy.gif">
+      <publishTime>02/28/2005 08:36:30</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeXP/old/copy.over.gif">
+      <publishTime>02/28/2005 08:36:30</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeXP/old/createlink.gif">
+      <publishTime>02/28/2005 08:36:32</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeXP/old/createlink.over.gif">
+      <publishTime>02/28/2005 08:36:32</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeXP/old/cut.gif">
+      <publishTime>02/28/2005 08:36:32</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeXP/old/cut.over.gif">
+      <publishTime>02/28/2005 08:36:32</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeXP/old/delete.gif">
+      <publishTime>02/28/2005 08:36:32</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeXP/old/delete.over.gif">
+      <publishTime>02/28/2005 08:36:30</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeXP/old/deletetablecolumn.gif">
+      <publishTime>02/28/2005 08:36:32</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeXP/old/deletetablecolumn.over.gif">
+      <publishTime>02/28/2005 08:36:30</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeXP/old/deletetablerow.gif">
+      <publishTime>02/28/2005 08:36:32</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeXP/old/deletetablerow.over.gif">
+      <publishTime>02/28/2005 08:36:32</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeXP/old/details.gif">
+      <publishTime>02/28/2005 08:36:32</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeXP/old/find.gif">
+      <publishTime>02/28/2005 08:36:30</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeXP/old/find.over.gif">
+      <publishTime>02/28/2005 08:36:32</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeXP/old/fontbackcolorpicker.gif">
+      <publishTime>02/28/2005 08:36:32</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeXP/old/fontbackcolorpicker.over.gif">
+      <publishTime>02/28/2005 08:36:30</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeXP/old/indent.over.gif">
+      <publishTime>02/28/2005 08:36:32</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeXP/old/insertdate.gif">
+      <publishTime>02/28/2005 08:36:30</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeXP/old/insertdate.over.gif">
+      <publishTime>02/28/2005 08:36:30</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeXP/old/insertemail.gif">
+      <publishTime>02/28/2005 08:36:30</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeXP/old/insertemail.over.gif">
+      <publishTime>02/28/2005 08:36:30</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeXP/old/insertimage.gif">
+      <publishTime>02/28/2005 08:36:30</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeXP/old/insertimage.over.gif">
+      <publishTime>02/28/2005 08:36:30</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeXP/old/insertimagefromgallery.gif">
+      <publishTime>02/28/2005 08:36:32</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeXP/old/insertimagefromgallery.over.gif">
+      <publishTime>02/28/2005 08:36:30</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeXP/old/insertrule.gif">
+      <publishTime>02/28/2005 08:36:30</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeXP/old/insertrule.over.gif">
+      <publishTime>02/28/2005 08:36:32</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeXP/old/inserttable.gif">
+      <publishTime>02/28/2005 08:36:32</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeXP/old/inserttable.over.gif">
+      <publishTime>02/28/2005 08:36:30</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeXP/old/inserttablecolumn.gif">
+      <publishTime>02/28/2005 08:36:32</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeXP/old/inserttablecolumn.over.gif">
+      <publishTime>02/28/2005 08:36:32</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeXP/old/inserttablerow.gif">
+      <publishTime>02/28/2005 08:36:32</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeXP/old/inserttablerow.over.gif">
+      <publishTime>02/28/2005 08:36:30</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeXP/old/inserttime.gif">
+      <publishTime>02/28/2005 08:36:32</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeXP/old/inserttime.over.gif">
+      <publishTime>02/28/2005 08:36:32</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeXP/old/italic.gif">
+      <publishTime>02/28/2005 08:36:32</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeXP/old/italic.over.gif">
+      <publishTime>02/28/2005 08:36:32</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeXP/old/justifycenter.gif">
+      <publishTime>02/28/2005 08:36:32</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeXP/old/justifycenter.over.gif">
+      <publishTime>02/28/2005 08:36:30</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeXP/old/justifyfull.gif">
+      <publishTime>02/28/2005 08:36:32</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeXP/old/justifyfull.over.gif">
+      <publishTime>02/28/2005 08:36:32</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeXP/old/justifyleft.gif">
+      <publishTime>02/28/2005 08:36:30</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeXP/old/justifyleft.over.gif">
+      <publishTime>02/28/2005 08:36:32</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeXP/old/justifyright.gif">
+      <publishTime>02/28/2005 08:36:32</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeXP/old/justifyright.over.gif">
+      <publishTime>02/28/2005 08:36:30</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeXP/old/numberedlist.gif">
+      <publishTime>02/28/2005 08:36:30</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeXP/old/numberedlist.over.gif">
+      <publishTime>02/28/2005 08:36:30</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeXP/old/outdent.gif">
+      <publishTime>02/28/2005 08:36:30</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeXP/old/outdent.over.gif">
+      <publishTime>02/28/2005 08:36:30</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeXP/old/paste.gif">
+      <publishTime>02/28/2005 08:36:30</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeXP/old/paste.over.gif">
+      <publishTime>02/28/2005 08:36:30</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeXP/old/print.gif">
+      <publishTime>02/28/2005 08:36:32</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeXP/old/print.over.gif">
+      <publishTime>02/28/2005 08:36:30</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeXP/old/redo.gif">
+      <publishTime>02/28/2005 08:36:30</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeXP/old/redo.over.gif">
+      <publishTime>02/28/2005 08:36:30</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeXP/old/removeformat.gif">
+      <publishTime>02/28/2005 08:36:32</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeXP/old/removeformat.over.gif">
+      <publishTime>02/28/2005 08:36:30</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeXP/old/save.gif">
+      <publishTime>02/28/2005 08:36:32</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeXP/old/save.over.gif">
+      <publishTime>02/28/2005 08:36:32</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeXP/old/spellcheck.gif">
+      <publishTime>02/28/2005 08:36:30</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeXP/old/spellcheck.over.gif">
+      <publishTime>02/28/2005 08:36:30</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeXP/old/strikethrough.gif">
+      <publishTime>02/28/2005 08:36:30</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeXP/old/strikethrough.over.gif">
+      <publishTime>02/28/2005 08:36:30</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeXP/old/subscript.gif">
+      <publishTime>02/28/2005 08:36:30</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeXP/old/subscript.over.gif">
+      <publishTime>02/28/2005 08:36:30</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeXP/old/superscript.gif">
+      <publishTime>02/28/2005 08:36:32</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeXP/old/superscript.over.gif">
+      <publishTime>02/28/2005 08:36:32</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeXP/old/Thumbs.db">
+      <publishTime>02/28/2005 08:36:30</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeXP/old/toggleborders.gif">
+      <publishTime>02/28/2005 08:36:30</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeXP/old/toggledetails.gif">
+      <publishTime>02/28/2005 08:36:30</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeXP/old/toggledetails.over.gif">
+      <publishTime>02/28/2005 08:36:30</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeXP/old/underline.gif">
+      <publishTime>02/28/2005 08:36:32</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeXP/old/underline.over.gif">
+      <publishTime>02/28/2005 08:36:32</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeXP/old/undo.gif">
+      <publishTime>02/28/2005 08:36:32</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeXP/old/undo.over.gif">
+      <publishTime>02/28/2005 08:36:32</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeXP/old/unlink.gif">
+      <publishTime>02/28/2005 08:36:30</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeXP/old/unlink.over.gif">
+      <publishTime>02/28/2005 08:36:30</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeXP/old/verse.gif">
+      <publishTime>02/28/2005 08:36:30</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeXP/old/verse.over.gif">
+      <publishTime>02/28/2005 08:36:30</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeXP/old/wordcount.gif">
+      <publishTime>02/28/2005 08:36:32</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeXP/old/wordcount.over.gif">
+      <publishTime>02/28/2005 08:36:32</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeXP/outdent.gif">
+      <publishTime>02/28/2005 08:36:30</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeXP/outdent.over.gif">
+      <publishTime>02/28/2005 08:36:30</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeXP/paste.gif">
+      <publishTime>02/28/2005 08:36:30</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeXP/paste.over.gif">
+      <publishTime>02/28/2005 08:36:30</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeXP/preview.gif">
+      <publishTime>02/28/2005 08:36:30</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeXP/print.gif">
+      <publishTime>02/28/2005 08:36:30</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeXP/print.over.gif">
+      <publishTime>02/28/2005 08:36:30</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeXP/redo.gif">
+      <publishTime>02/28/2005 08:36:30</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeXP/redo.over.gif">
+      <publishTime>02/28/2005 08:36:30</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeXP/removeformat.gif">
+      <publishTime>02/28/2005 08:36:30</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeXP/removeformat.over.gif">
+      <publishTime>02/28/2005 08:36:30</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeXP/save.gif">
+      <publishTime>02/28/2005 08:36:30</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeXP/save.over.gif">
+      <publishTime>02/28/2005 08:36:30</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeXP/selectall.gif">
+      <publishTime>02/28/2005 08:36:30</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeXP/separator.horizontal.gif">
+      <publishTime>02/28/2005 08:36:30</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeXP/spacer.gif">
+      <publishTime>02/28/2005 08:36:30</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeXP/spellcheck.gif">
+      <publishTime>02/28/2005 08:36:30</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeXP/spellcheck.over.gif">
+      <publishTime>02/28/2005 08:36:30</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeXP/strikethrough.gif">
+      <publishTime>02/28/2005 08:36:30</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeXP/strikethrough.over.gif">
+      <publishTime>02/28/2005 08:36:30</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeXP/subs/bold.gif">
+      <publishTime>02/28/2005 08:36:32</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeXP/subs/bold.over.gif">
+      <publishTime>02/28/2005 08:36:32</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeXP/subs/bulletedlist.gif">
+      <publishTime>02/28/2005 08:36:32</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeXP/subs/bulletedlist.over.gif">
+      <publishTime>02/28/2005 08:36:32</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeXP/subs/copy.gif">
+      <publishTime>02/28/2005 08:36:32</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeXP/subs/copy.over.gif">
+      <publishTime>02/28/2005 08:36:32</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeXP/subs/createlink.gif">
+      <publishTime>02/28/2005 08:36:32</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeXP/subs/createlink.over.gif">
+      <publishTime>02/28/2005 08:36:32</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeXP/subs/cut.gif">
+      <publishTime>02/28/2005 08:36:32</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeXP/subs/cut.over.gif">
+      <publishTime>02/28/2005 08:36:32</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeXP/subs/delete.gif">
+      <publishTime>02/28/2005 08:36:32</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeXP/subs/delete.over.gif">
+      <publishTime>02/28/2005 08:36:32</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeXP/subs/deletetablecolumn.gif">
+      <publishTime>02/28/2005 08:36:32</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeXP/subs/deletetablecolumn.over.gif">
+      <publishTime>02/28/2005 08:36:32</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeXP/subs/deletetablerow.gif">
+      <publishTime>02/28/2005 08:36:32</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeXP/subs/deletetablerow.over.gif">
+      <publishTime>02/28/2005 08:36:32</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeXP/subs/fontbackcolorpicker.gif">
+      <publishTime>02/28/2005 08:36:32</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeXP/subs/fontbackcolorpicker.over.gif">
+      <publishTime>02/28/2005 08:36:32</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeXP/subs/fontforecolorpicker.gif">
+      <publishTime>02/28/2005 08:36:32</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeXP/subs/fontforecolorpicker.over.gif">
+      <publishTime>02/28/2005 08:36:32</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeXP/subs/indent.gif">
+      <publishTime>02/28/2005 08:36:32</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeXP/subs/indent.over.gif">
+      <publishTime>02/28/2005 08:36:32</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeXP/subs/insertdate.gif">
+      <publishTime>02/28/2005 08:36:32</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeXP/subs/insertdate.over.gif">
+      <publishTime>02/28/2005 08:36:32</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeXP/subs/insertimage.gif">
+      <publishTime>02/28/2005 08:36:32</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeXP/subs/insertimage.over.gif">
+      <publishTime>02/28/2005 08:36:32</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeXP/subs/insertimagefromgallery.gif">
+      <publishTime>02/28/2005 08:36:32</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeXP/subs/insertimagefromgallery.over.gif">
+      <publishTime>02/28/2005 08:36:32</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeXP/subs/insertrule.gif">
+      <publishTime>02/28/2005 08:36:32</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeXP/subs/insertrule.over.gif">
+      <publishTime>02/28/2005 08:36:32</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeXP/subs/inserttable.gif">
+      <publishTime>02/28/2005 08:36:32</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeXP/subs/inserttable.over.gif">
+      <publishTime>02/28/2005 08:36:32</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeXP/subs/inserttablecolumn.gif">
+      <publishTime>02/28/2005 08:36:32</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeXP/subs/inserttablecolumn.over.gif">
+      <publishTime>02/28/2005 08:36:32</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeXP/subs/inserttablerow.gif">
+      <publishTime>02/28/2005 08:36:32</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeXP/subs/inserttablerow.over.gif">
+      <publishTime>02/28/2005 08:36:32</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeXP/subs/inserttime.gif">
+      <publishTime>02/28/2005 08:36:32</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeXP/subs/inserttime.over.gif">
+      <publishTime>02/28/2005 08:36:32</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeXP/subs/italic.gif">
+      <publishTime>02/28/2005 08:36:32</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeXP/subs/italic.over.gif">
+      <publishTime>02/28/2005 08:36:32</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeXP/subs/justifycenter.gif">
+      <publishTime>02/28/2005 08:36:32</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeXP/subs/justifycenter.over.gif">
+      <publishTime>02/28/2005 08:36:32</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeXP/subs/justifyfull.gif">
+      <publishTime>02/28/2005 08:36:32</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeXP/subs/justifyfull.over.gif">
+      <publishTime>02/28/2005 08:36:32</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeXP/subs/justifyleft.gif">
+      <publishTime>02/28/2005 08:36:32</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeXP/subs/justifyleft.over.gif">
+      <publishTime>02/28/2005 08:36:32</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeXP/subs/justifyright.gif">
+      <publishTime>02/28/2005 08:36:32</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeXP/subs/justifyright.over.gif">
+      <publishTime>02/28/2005 08:36:32</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeXP/subs/mergecells.gif">
+      <publishTime>02/28/2005 08:36:32</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeXP/subs/mergecells.over.gif">
+      <publishTime>02/28/2005 08:36:32</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeXP/subs/mergerows.gif">
+      <publishTime>02/28/2005 08:36:32</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeXP/subs/mergerows.over.gif">
+      <publishTime>02/28/2005 08:36:32</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeXP/subs/numberedlist.gif">
+      <publishTime>02/28/2005 08:36:32</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeXP/subs/numberedlist.over.gif">
+      <publishTime>02/28/2005 08:36:32</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeXP/subs/outdent.gif">
+      <publishTime>02/28/2005 08:36:32</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeXP/subs/outdent.over.gif">
+      <publishTime>02/28/2005 08:36:32</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeXP/subs/paste.gif">
+      <publishTime>02/28/2005 08:36:32</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeXP/subs/paste.over.gif">
+      <publishTime>02/28/2005 08:36:32</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeXP/subs/print.gif">
+      <publishTime>02/28/2005 08:36:32</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeXP/subs/print.over.gif">
+      <publishTime>02/28/2005 08:36:32</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeXP/subs/redo.gif">
+      <publishTime>02/28/2005 08:36:32</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeXP/subs/redo.over.gif">
+      <publishTime>02/28/2005 08:36:32</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeXP/subs/removeformat.gif">
+      <publishTime>02/28/2005 08:36:32</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeXP/subs/removeformat.over.gif">
+      <publishTime>02/28/2005 08:36:32</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeXP/subs/save.gif">
+      <publishTime>02/28/2005 08:36:32</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeXP/subs/save.over.gif">
+      <publishTime>02/28/2005 08:36:32</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeXP/subs/spellcheck.gif">
+      <publishTime>02/28/2005 08:36:32</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeXP/subs/spellcheck.over.gif">
+      <publishTime>02/28/2005 08:36:32</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeXP/subs/strikethrough.gif">
+      <publishTime>02/28/2005 08:36:32</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeXP/subs/strikethrough.over.gif">
+      <publishTime>02/28/2005 08:36:32</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeXP/subs/subscript.gif">
+      <publishTime>02/28/2005 08:36:32</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeXP/subs/subscript.over.gif">
+      <publishTime>02/28/2005 08:36:32</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeXP/subs/superscript.gif">
+      <publishTime>02/28/2005 08:36:32</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeXP/subs/superscript.over.gif">
+      <publishTime>02/28/2005 08:36:32</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeXP/subs/Thumbs.db">
+      <publishTime>02/28/2005 08:36:32</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeXP/subs/underline.gif">
+      <publishTime>02/28/2005 08:36:32</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeXP/subs/underline.over.gif">
+      <publishTime>02/28/2005 08:36:32</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeXP/subs/undo.gif">
+      <publishTime>02/28/2005 08:36:32</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeXP/subs/undo.over.gif">
+      <publishTime>02/28/2005 08:36:32</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeXP/subs/unlink.gif">
+      <publishTime>02/28/2005 08:36:32</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeXP/subs/unlink.over.gif">
+      <publishTime>02/28/2005 08:36:32</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeXP/subs/wordclean.gif">
+      <publishTime>02/28/2005 08:36:32</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeXP/subs/wordclean.over.gif">
+      <publishTime>02/28/2005 08:36:32</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeXP/subs/wordcount.gif">
+      <publishTime>02/28/2005 08:36:32</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeXP/subs/wordcount.over.gif">
+      <publishTime>02/28/2005 08:36:32</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeXP/subscript.gif">
+      <publishTime>02/28/2005 08:36:30</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeXP/subscript.over.gif">
+      <publishTime>02/28/2005 08:36:30</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeXP/superscript.gif">
+      <publishTime>02/28/2005 08:36:30</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeXP/superscript.over.gif">
+      <publishTime>02/28/2005 08:36:30</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeXP/Thumbs.db">
+      <publishTime>02/28/2005 08:36:30</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeXP/toolbar.horizontal.end.gif">
+      <publishTime>02/28/2005 08:36:30</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeXP/toolbar.horizontal.start.gif">
+      <publishTime>02/28/2005 08:36:30</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeXP/underline.gif">
+      <publishTime>02/28/2005 08:36:30</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeXP/underline.over.gif">
+      <publishTime>02/28/2005 08:36:30</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeXP/undo.gif">
+      <publishTime>02/28/2005 08:36:30</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeXP/undo.over.gif">
+      <publishTime>02/28/2005 08:36:30</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeXP/unlink.gif">
+      <publishTime>02/28/2005 08:36:30</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeXP/unlink.over.gif">
+      <publishTime>02/28/2005 08:36:30</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeXP/wordclean.gif">
+      <publishTime>02/28/2005 08:36:30</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeXP/wordclean.over.gif">
+      <publishTime>02/28/2005 08:36:30</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeXP/wordcount.gif">
+      <publishTime>02/28/2005 08:36:30</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/officeXP/wordcount.over.gif">
+      <publishTime>02/28/2005 08:36:30</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/utility/folder.big.gif">
+      <publishTime>02/28/2005 08:36:32</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/utility/folder.small.gif">
+      <publishTime>02/28/2005 08:36:32</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/utility/folder.up.gif">
+      <publishTime>02/28/2005 08:36:32</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/utility/image.gif">
+      <publishTime>02/28/2005 08:36:32</publishTime>
+    </File>
+    <File Include="aspnet_client/FreeTextBox/utility/Thumbs.db">
+      <publishTime>02/28/2005 08:36:32</publishTime>
+    </File>
+    <File Include="bin/DbExec.dll">
+      <publishTime>10/29/2018 01:03:42</publishTime>
+    </File>
+    <File Include="bin/Entity.dll">
+      <publishTime>10/29/2018 01:03:41</publishTime>
+    </File>
+    <File Include="bin/FreeTextBox.dll">
+      <publishTime>02/10/2009 22:35:38</publishTime>
+    </File>
+    <File Include="bin/OWC11.DLL">
+      <publishTime>10/26/2006 20:30:12</publishTime>
+    </File>
+    <File Include="bin/SignupSys.dll">
+      <publishTime>10/29/2018 01:03:45</publishTime>
+    </File>
+    <File Include="bin/Transaction.dll">
+      <publishTime>10/29/2018 01:03:43</publishTime>
+    </File>
+    <File Include="Default.aspx">
+      <publishTime>05/01/2018 00:24:53</publishTime>
+    </File>
+    <File Include="editPageNotice.aspx">
+      <publishTime>10/28/2018 08:51:10</publishTime>
+    </File>
+    <File Include="editPageSignup.aspx">
+      <publishTime>05/08/2018 13:19:47</publishTime>
+    </File>
+    <File Include="editQA.aspx">
+      <publishTime>05/08/2018 13:17:41</publishTime>
+    </File>
+    <File Include="err.aspx">
+      <publishTime>04/30/2018 21:09:03</publishTime>
+    </File>
+    <File Include="exportSignupList.aspx">
+      <publishTime>05/02/2018 19:45:34</publishTime>
+    </File>
+    <File Include="ftb.colorpicker.aspx">
+      <publishTime>03/29/2017 00:09:36</publishTime>
+    </File>
+    <File Include="ftb.imagegallery.aspx">
+      <publishTime>11/17/2003 02:21:32</publishTime>
+    </File>
+    <File Include="ftb.inserttable.aspx">
+      <publishTime>11/17/2003 02:03:22</publishTime>
+    </File>
+    <File Include="images/delete.png">
+      <publishTime>08/29/2015 22:11:22</publishTime>
+    </File>
+    <File Include="images/qrcode.png">
+      <publishTime>05/02/2018 01:24:37</publishTime>
+    </File>
+    <File Include="images/recover.png">
+      <publishTime>05/02/2018 22:30:33</publishTime>
+    </File>
+    <File Include="importSignupList.aspx">
+      <publishTime>05/02/2018 22:39:17</publishTime>
+    </File>
+    <File Include="login.aspx">
+      <publishTime>04/30/2018 21:09:03</publishTime>
+    </File>
+    <File Include="Scripts/editqa.js">
+      <publishTime>05/07/2018 22:53:38</publishTime>
+    </File>
+    <File Include="Scripts/import.js">
+      <publishTime>03/17/2017 08:50:32</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.7.1.js">
+      <publishTime>03/29/2017 00:09:48</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.7.1.min.js">
+      <publishTime>03/29/2017 00:09:48</publishTime>
+    </File>
+    <File Include="Scripts/signup.js">
+      <publishTime>03/16/2017 23:08:54</publishTime>
+    </File>
+    <File Include="Scripts/signuplist.js">
+      <publishTime>05/08/2018 10:25:02</publishTime>
+    </File>
+    <File Include="signUp.aspx">
+      <publishTime>04/30/2018 21:09:03</publishTime>
+    </File>
+    <File Include="signUp.html">
+      <publishTime>10/28/2018 00:23:02</publishTime>
+    </File>
+    <File Include="template/images/down_arrow.png">
+      <publishTime>06/14/2015 01:03:02</publishTime>
+    </File>
+    <File Include="template/notice.css">
+      <publishTime>06/15/2015 11:29:14</publishTime>
+    </File>
+    <File Include="template/notice.html">
+      <publishTime>05/11/2018 23:22:32</publishTime>
+    </File>
+    <File Include="template/signuplist.xlsx">
+      <publishTime>10/28/2018 00:24:03</publishTime>
+    </File>
+    <File Include="viewQRCode.aspx">
+      <publishTime>04/30/2018 21:09:03</publishTime>
+    </File>
+    <File Include="viewSignupList.aspx">
+      <publishTime>10/28/2018 00:44:36</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>05/08/2018 13:12:46</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

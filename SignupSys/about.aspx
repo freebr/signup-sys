@@ -1,0 +1,27 @@
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="about.aspx.cs" Inherits="SignupSys.about" Theme="default" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+        <div class="sprite_name">
+        <span>关于本系统</span>
+        </div>
+        <div class="top_panel">
+        <p><asp:Button ID="btnIndex" runat="server" OnClick="btnIndex_Click" Text="返回首页" />
+        </p>
+        </div>
+        <div class="container">
+        <div>
+            <p align="left"><asp:Literal ID="ltrDesc" runat="server"></asp:Literal></p>
+        </div></div>
+    </div>
+    </form>
+</body>
+</html>

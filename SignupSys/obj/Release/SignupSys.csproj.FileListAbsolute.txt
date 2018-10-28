@@ -1,0 +1,13 @@
+G:\web\SignupSys\SignupSys\bin\SignupSys.dll.config
+G:\web\SignupSys\SignupSys\bin\SignupSys.dll
+G:\web\SignupSys\SignupSys\bin\SignupSys.pdb
+G:\web\SignupSys\SignupSys\bin\Entity.dll
+G:\web\SignupSys\SignupSys\bin\Transaction.dll
+G:\web\SignupSys\SignupSys\bin\DbExec.dll
+G:\web\SignupSys\SignupSys\bin\Entity.pdb
+G:\web\SignupSys\SignupSys\bin\Transaction.pdb
+G:\web\SignupSys\SignupSys\bin\DbExec.pdb
+G:\web\SignupSys\SignupSys\obj\Release\SignupSys.csprojResolveAssemblyReference.cache
+G:\web\SignupSys\SignupSys\obj\Release\SignupSys.dll.licenses
+G:\web\SignupSys\SignupSys\obj\Release\SignupSys.dll
+G:\web\SignupSys\SignupSys\obj\Release\SignupSys.pdb

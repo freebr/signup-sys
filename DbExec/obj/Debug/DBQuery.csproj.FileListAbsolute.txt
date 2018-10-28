@@ -1,0 +1,5 @@
+F:\web\MBAInterview\DBQuery\bin\Debug\DBQuery.dll
+F:\web\MBAInterview\DBQuery\bin\Debug\DBQuery.pdb
+F:\web\MBAInterview\DBQuery\obj\Debug\DBQuery.csprojResolveAssemblyReference.cache
+F:\web\MBAInterview\DBQuery\obj\Debug\DBQuery.dll
+F:\web\MBAInterview\DBQuery\obj\Debug\DBQuery.pdb

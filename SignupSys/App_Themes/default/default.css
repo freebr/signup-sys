@@ -1,0 +1,111 @@
+﻿a { padding: 2px 5px }
+a:visited { color:#0000ff }
+a:link { color:#0000ff;background-color:none;text-decoration:underline }
+a:hover { background-color:none;text-decoration:none }
+a.menu:visited { color:#00861b }
+a.menu:link { color:#00861b;background-color:none;text-decoration:none }
+a.menu:hover { background-color:#b6ff00 }
+
+div.instruction {
+    text-align: left;
+    font-size: small;
+    padding-bottom: 20px;
+}
+div.banner {
+    text-align: center;
+    font-size: x-large;
+}
+div.sprite_group_header {
+    background: url(images/spr_grp_line.png) left center repeat-x;
+}
+span.sprite_group_name {
+    background: url(images/spr_grp_expand.png) left center no-repeat #ffffff;
+    padding: 0 6px 0 12px;
+    font-family: Arial, 宋体;
+    font-size: 12pt;
+    font-weight: bold;
+    color: #1e32b2;
+    cursor: pointer;
+}
+div.sprite_group_content {
+    padding: 5px 0 5px 20px;
+    font-size: 9pt;
+}
+div.sprite_group_content p { padding:0 0 0 20px; line-height: 18px }
+p.def { background: url(images/spr_def.png) left center no-repeat }
+p.tbl { background: url(images/spr_tbl.png) left center no-repeat }
+p.sur { background: url(images/spr_sur.png) left center no-repeat }
+p.imp { background: url(images/spr_imp.png) left center no-repeat }
+p.exp { background: url(images/spr_exp.png) left center no-repeat }
+p.exit { background: url(images/spr_exit.png) left center no-repeat }
+
+div.sprite_name {
+    font-family: 微软雅黑,宋体,'Times New Roman';
+    font-size: large;
+    padding: 0 0 20px 10px;
+    background: url(images/spr_title_bar.png) left center repeat-x;
+}
+div.top_panel {
+    width: 1200px;
+    margin: 5px auto;
+    background-color: #99ccff;
+    border: 1px solid #0000aa;
+    font-size: 11pt;
+}
+
+div.container {
+    width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 11pt;
+}
+div.container div {
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+}
+div.errTitle {
+    display: block;
+    width: 400px;
+    height: 40px;
+    margin: auto;
+    background-color: #ffadad;
+    line-height: 40px;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 5px;
+    color: #ff2525;
+    -webkit-text-stroke: pink 1px;
+}
+div.errContent {
+    display: block;
+    width: 400px;
+    height: 100px;
+    margin: auto;
+    background-color: #ffffff;
+    text-indent: 10px;
+    vertical-align: middle;
+}
+div.errOperation {
+    display: block;
+    width: 400px;
+    margin: auto;
+    background-color: #ffffff;
+    border-top: 1px solid #808080;
+}
+p.validation {
+    color: red;
+    font-size: 12px;
+    font-weight: bold;
+}
+.column-id {
+    display: none;
+}
+.text-answers {
+    padding-left: 10px;
+    text-align: left;
+    white-space:pre-line;
+}
+input[type="image"] {
+    padding:0 5px;
+}

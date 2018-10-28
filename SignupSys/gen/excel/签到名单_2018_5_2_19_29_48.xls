@@ -1,0 +1,155 @@
+<?xml version="1.0"?>
+<ss:Workbook xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:c="urn:schemas-microsoft-com:office:component:spreadsheet">
+ <x:ExcelWorkbook>
+  <x:ProtectStructure>False</x:ProtectStructure>
+  <x:ActiveSheet>0</x:ActiveSheet>
+ </x:ExcelWorkbook>
+ <ss:Styles>
+  <ss:Style ss:ID="Default">
+   <ss:Alignment ss:Horizontal="Automatic" ss:Rotate="0.0" ss:Vertical="Bottom"
+    ss:ReadingOrder="Context"/>
+   <ss:Borders>
+   </ss:Borders>
+   <ss:Font ss:FontName="宋体" ss:Size="11" ss:Color="Automatic" ss:Bold="0"
+    ss:Italic="0" ss:Underline="None"/>
+   <ss:Interior ss:Color="Automatic" ss:Pattern="None"/>
+   <ss:NumberFormat ss:Format="General"/>
+   <ss:Protection ss:Protected="1"/>
+  </ss:Style>
+  <ss:Style ss:ID="wc22EC560000000000">
+   <ss:Alignment ss:Horizontal="Center"/>
+   <ss:Font ss:FontName="宋体" ss:Size="11" ss:Bold="1"/>
+   <ss:Interior/>
+  </ss:Style>
+  <ss:Style ss:ID="wc22EC570000000000">
+   <ss:Alignment/>
+   <ss:Font ss:FontName="宋体" ss:Size="11"/>
+   <ss:Interior/>
+   <ss:NumberFormat ss:Format="yyyy/m/d h:mm"/>
+  </ss:Style>
+ </ss:Styles>
+ <c:ComponentOptions>
+  <c:Label>
+   <c:Caption>Microsoft Office 电子表格</c:Caption>
+  </c:Label>
+  <c:MaxHeight>80%</c:MaxHeight>
+  <c:MaxWidth>80%</c:MaxWidth>
+  <c:NextSheetNumber>4</c:NextSheetNumber>
+ </c:ComponentOptions>
+ <x:WorkbookOptions>
+  <c:OWCVersion>12.0.0.4518         </c:OWCVersion>
+ </x:WorkbookOptions>
+ <ss:Worksheet ss:Name="签到名单(2018.05)">
+  <x:WorksheetOptions>
+   <x:Selected/>
+   <x:ViewableRange>R1:R262144</x:ViewableRange>
+   <x:Selection>R1C1</x:Selection>
+   <x:TopRowVisible>0</x:TopRowVisible>
+   <x:LeftColumnVisible>0</x:LeftColumnVisible>
+   <x:ProtectContents>False</x:ProtectContents>
+  </x:WorksheetOptions>
+  <c:WorksheetOptions>
+  </c:WorksheetOptions>
+  <ss:Table ss:ExpandedColumnCount="4" ss:ExpandedRowCount="6"
+   ss:DefaultColumnWidth="54.0" ss:DefaultRowHeight="12.75">
+   <ss:Column ss:Width="63.74999999999999" ss:AutoFitWidth="0"/>
+   <ss:Column ss:Width="93.75" ss:AutoFitWidth="0"/>
+   <ss:Column ss:Width="123.75" ss:AutoFitWidth="0"/>
+   <ss:Column ss:Width="183.75" ss:AutoFitWidth="0"/>
+   <ss:Row>
+    <ss:Cell ss:StyleID="wc22EC560000000000">
+     <ss:Data ss:Type="String">签到序号</ss:Data>
+    </ss:Cell>
+    <ss:Cell ss:StyleID="wc22EC560000000000">
+     <ss:Data ss:Type="String">姓名</ss:Data>
+    </ss:Cell>
+    <ss:Cell ss:StyleID="wc22EC560000000000">
+     <ss:Data ss:Type="String">手机号码</ss:Data>
+    </ss:Cell>
+    <ss:Cell ss:StyleID="wc22EC560000000000">
+     <ss:Data ss:Type="String">签到时间</ss:Data>
+    </ss:Cell>
+   </ss:Row>
+   <ss:Row>
+    <ss:Cell>
+     <ss:Data ss:Type="Number">2</ss:Data>
+    </ss:Cell>
+    <ss:Cell>
+     <ss:Data ss:Type="String">张三</ss:Data>
+    </ss:Cell>
+    <ss:Cell>
+     <ss:Data ss:Type="String" x:Ticked="1">18688626001</ss:Data>
+    </ss:Cell>
+    <ss:Cell ss:StyleID="wc22EC570000000000">
+     <ss:Data ss:Type="DateTime" x:Ticked="1">2018-05-02T08:23:55.00</ss:Data>
+    </ss:Cell>
+   </ss:Row>
+   <ss:Row>
+    <ss:Cell>
+     <ss:Data ss:Type="Number">1</ss:Data>
+    </ss:Cell>
+    <ss:Cell>
+     <ss:Data ss:Type="String">欧阳泉</ss:Data>
+    </ss:Cell>
+    <ss:Cell>
+     <ss:Data ss:Type="String" x:Ticked="1">18818408268</ss:Data>
+    </ss:Cell>
+    <ss:Cell ss:StyleID="wc22EC570000000000">
+     <ss:Data ss:Type="DateTime" x:Ticked="1">2018-05-02T08:21:25.00</ss:Data>
+    </ss:Cell>
+   </ss:Row>
+   <ss:Row>
+    <ss:Cell ss:Index="2">
+     <ss:Data ss:Type="String">李四</ss:Data>
+    </ss:Cell>
+    <ss:Cell>
+     <ss:Data ss:Type="String" x:Ticked="1">18612345678</ss:Data>
+    </ss:Cell>
+   </ss:Row>
+   <ss:Row>
+    <ss:Cell ss:Index="2">
+     <ss:Data ss:Type="String">王五</ss:Data>
+    </ss:Cell>
+    <ss:Cell>
+     <ss:Data ss:Type="String" x:Ticked="1">18687654321</ss:Data>
+    </ss:Cell>
+   </ss:Row>
+   <ss:Row>
+    <ss:Cell ss:Index="2">
+     <ss:Data ss:Type="String">赵六</ss:Data>
+    </ss:Cell>
+    <ss:Cell>
+     <ss:Data ss:Type="String" x:Ticked="1">18600000000</ss:Data>
+    </ss:Cell>
+   </ss:Row>
+  </ss:Table>
+ </ss:Worksheet>
+ <ss:Worksheet ss:Name="Sheet2">
+  <x:WorksheetOptions>
+   <x:ViewableRange>R1:R262144</x:ViewableRange>
+   <x:Selection>R1C1</x:Selection>
+   <x:TopRowVisible>0</x:TopRowVisible>
+   <x:LeftColumnVisible>0</x:LeftColumnVisible>
+   <x:ProtectContents>False</x:ProtectContents>
+  </x:WorksheetOptions>
+  <c:WorksheetOptions>
+  </c:WorksheetOptions>
+  <ss:Table ss:DefaultColumnWidth="54.0" ss:DefaultRowHeight="12.75">
+  </ss:Table>
+ </ss:Worksheet>
+ <ss:Worksheet ss:Name="Sheet3">
+  <x:WorksheetOptions>
+   <x:ViewableRange>R1:R262144</x:ViewableRange>
+   <x:Selection>R1C1</x:Selection>
+   <x:TopRowVisible>0</x:TopRowVisible>
+   <x:LeftColumnVisible>0</x:LeftColumnVisible>
+   <x:ProtectContents>False</x:ProtectContents>
+  </x:WorksheetOptions>
+  <c:WorksheetOptions>
+  </c:WorksheetOptions>
+  <ss:Table ss:DefaultColumnWidth="54.0" ss:DefaultRowHeight="12.75">
+  </ss:Table>
+ </ss:Worksheet>
+</ss:Workbook>

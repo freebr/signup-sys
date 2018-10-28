@@ -1,0 +1,42 @@
+﻿div.container { text-align: center; }
+div.signupbox {
+    margin: auto;
+    width: 100%;
+    border-top: 3px solid #0094ff;
+    border-bottom: 3px solid #0094ff;
+}
+p.title {
+    font-size: 16pt;
+    color: #000000;
+    font-weight: bold;
+    text-align: center;
+}
+p.signup {
+    padding-left: 10px;
+    text-align: center;
+    font-size: 12pt;
+    color: #808080;
+}
+input.text {
+    width: 90%;
+    height: 50px;
+}
+div.personal-info {
+    display: block;
+    text-align: center;
+}
+div.survey {
+    display: block;
+}
+div.question {
+    display: block;
+    border-top: 1px dashed gainsboro;
+    text-align: left;
+    text-indent: 20px;
+}
+div.question:last-child {
+    border-bottom: 1px dashed gainsboro;
+}
+div.question label {
+    margin: 0 10px;
+}
